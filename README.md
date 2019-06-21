@@ -2,6 +2,8 @@
 
 This project demonstrates how to show a simple rotating 3D cube on a web page using WebGL, programmed in Rust via the wasm32-unknown-unknown target.
 
+Note that this project uses WebGL2, which is not available on all browsers (especially IE, Edge, Safari and Safari Mobile).
+
 ## How to install
 
 ```sh
