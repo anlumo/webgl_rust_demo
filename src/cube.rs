@@ -4,7 +4,7 @@ use wasm_bindgen::{JsValue, JsCast};
 use js_sys::WebAssembly;
 use web_sys::{WebGl2RenderingContext as WebGL, WebGlBuffer};
 
-use crate::render_util::ShaderProgram;
+use crate::shader_program::ShaderProgram;
 
 pub struct Cube {
     gl: WebGL,

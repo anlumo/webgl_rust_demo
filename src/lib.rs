@@ -3,7 +3,7 @@ use wasm_bindgen::JsCast;
 use web_sys::{HtmlCanvasElement, WebGl2RenderingContext as WebGL};
 
 mod renderer;
-mod render_util;
+mod shader_program;
 mod cube;
 
 // When the `wee_alloc` feature is enabled, this uses `wee_alloc` as the global
